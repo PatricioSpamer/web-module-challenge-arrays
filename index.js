@@ -45,7 +45,10 @@ Use the copy function below to do the following:
     2. Return a copy of the received array  
 */
 
-function copy(/*your code here*/){
+function copy(...originalFlavors){
+return copy;}
+    
+    /*your code here*/){
     /*your code here*/
 }    
 
@@ -63,8 +66,11 @@ Confirm that an array is exactly 31 flavors. Your function should accept:
 For Example: is31Flavors(originalFlavors) will return true if your code is working properly
 */
 
-
-function is31Flavors(/*your code here*/){
+if (originalFlavors.length==31){return true}
+else if (originalFlavors.length!=31){return false};
+    
+    
+    /*your code here*/){
    /*your code here*/
 }
 
@@ -84,6 +90,28 @@ Use the addFlavor function below to do the following:
 function addFlavor(/*your code here*/){
    /*your code here*/
 }
+//very confused with the function part we did not do that during guided project, we would just write out code that did not 
+//include functions so I'm just gonna do it how we did during guided project
+
+function addflavor(
+let modifiedFlavors = [...originalFlavors];
+let NewFlavor = "Rainbow Sherbert";
+modifiedFlavors.unshift(NewFlavor); )
+{
+return modifiedFlavors; 
+}
+
+//no mention of removing a flavor so I only made the addition, although Im unsure since there is supposed to be only 31 flavors
+
+
+
+
+)
+
+
+
+
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -97,9 +125,13 @@ Use the removeLastFlavor function below to do the following:
     For example: running removeLastFlavor(originalFlavors) would return ["Rainbow Sherbert", "Banana Nut Fudge",..."Vanilla"]
 */
 
-function removeLastFlavor(/*your code here*/){
-   /*your code here*/
+
+//not too sure about the whoe function part so I'm just gonna try my best
+function removeLastFlavor(
+modifiedFlavors.pop(); ) {
+return modifiedFlavors;
 }
+
 
 
 
@@ -113,9 +145,15 @@ Use the getFlavorByIndex function below to do the following:
     For example: running getFlavorByIndex(originalFlavors, 2) would return "Black Walnut", assuming Rainbow Sherbert has been added successfully
 */
 
-function getFlavorByIndex(/*your code here*/){
-    /*your code here*/
+function getFlavorByIndex(){
+    return(modifiedFlavors[3]);
+
 }
+
+
+
+
+
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
